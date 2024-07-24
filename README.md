@@ -1,5 +1,5 @@
 
-<h1 align="center">Postscript Interpreter</h1>
+<h1 align="center">Postscript Interpreter in Python</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/postscript-interpreter?color=FF0000">
@@ -23,7 +23,7 @@
     alt="Website Badge" />
 </p>
 
-This  project is intended to showcase our knowledge learning about Neural Network Design by developing a
+I coded an interpreter for the PostScript language in Python. PostScript is a stack-based, interpreted language developed by Adobe Systems long ago for producing high-quality text and graphics in the printing industry. My interpreter includes the operators: add, sub, mul, div, mod, eq, lt, gt, length, get, getinterval, put, if, ifelse, for, dup, copy, clear, exch, roll, and dict.
 
 ![project image](resources/image1.png)
 
@@ -54,11 +54,12 @@ This  project is intended to showcase our knowledge learning about Neural Networ
 
 
 
+
 # Tools Used / Development Environment
-- Python
+- Java
 - VS Code
 - Terminal
-- Windows 10
+- Ubuntu
 
 
 
@@ -66,8 +67,8 @@ This  project is intended to showcase our knowledge learning about Neural Networ
 
 # Team / Contributors / Teachers
 - [Mitchell Kolb](https://github.com/mitchellkolb)
-- [name]()
-- Professor. 
+- Associate Professor. Jeremy E. Thompson
+
 
 
 
