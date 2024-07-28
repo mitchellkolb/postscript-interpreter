@@ -23,7 +23,7 @@
     alt="Website Badge" />
 </p>
 
-I coded an interpreter for the PostScript language in Python. PostScript is a stack-based, interpreted language developed by Adobe Systems long ago for producing high-quality text and graphics in the printing industry. My interpreter includes the operators: add, sub, mul, div, mod, eq, lt, gt, length, get, getinterval, put, if, ifelse, for, dup, copy, clear, exch, roll, and dict.
+I coded an interpreter for the PostScript language in Python. PostScript is a stack-based, interpreted language developed by Adobe Systems long ago for producing vector graphics in the printing industry. My interpreter includes the operators: add, sub, mul, div, mod, eq, lt, gt, length, get, getinterval, put, if, ifelse, for, dup, copy, clear, exch, roll, and dict.
 
 ![project image](resources/image1.png)
 
@@ -49,14 +49,23 @@ I coded an interpreter for the PostScript language in Python. PostScript is a st
 ---
 
 # What I Learned in this Project
-- How to
-- Programming in 
-
-
+- How to code in python with emphasis using: 
+    - Higher Order Functions like map, filter, and reduce
+    - Static Scoping and Dynamic Scoping
+    - Pythons strong dyanmic typing
+    - Data types / systems like iterators, iterables, streams, classes, closures, and objects
+- Understanding how Pythons handles its Scope, Referencing Environment, and Activation Record when dealing with programs and data.
+- Differences between:
+    - Compile-time (static) type checking versus Run-time (dynamic) type checking
+    - Storage Management
+      - Static area
+      - Stack
+      - Heap
 
 
 # Tools Used / Development Environment
-- Java
+- Python
+- Postscript
 - VS Code
 - Terminal
 - Ubuntu
@@ -75,11 +84,12 @@ I coded an interpreter for the PostScript language in Python. PostScript is a st
 
 
 # How to Set Up
-This project was implemented on our local machine inside of a virtual machine using:
-- Ubuntu Version 20.04.03 found at this [link](http://lt.releases.ubuntu.com/20.04.3/).
+This project was implemented on my local machine inside of a virtual machine using vscode:
+- [Ubuntu Download](https://ubuntu.com/download/desktop)
+- Install [Python](https://www.python.org/downloads/)
 - Clone this repository 
-- Open terminal at the codebase `~.../ext2/Noah-Mitchell/`
-
+- Open terminal at the codebase `~.../postscript-interpreter/sps-part-1/` or `~.../postscript-interpreter/sps-part-2/`
+- Run the python file with some arugments in the main function or try out the tests file to see example input/output.
 
 
 
