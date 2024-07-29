@@ -56,7 +56,6 @@ An interpreter for the PostScript language in Python. PostScript is a stack-base
 
 # What I Learned in this Project
 - How to code in python with emphasis using: 
-    - Higher Order Functions like map, filter, and reduce
     - Static Scoping and Dynamic Scoping
     - Pythons strong dyanmic typing
     - Data types / systems like iterators, iterables, streams, classes, closures, and objects
@@ -153,7 +152,6 @@ print(opPop())  # Output: 30
 
 During development, I learned how to implement key programming concepts in Python, including:
 
-- Higher-order functions like `map`, `filter`, and `reduce`
 - Static and dynamic scoping
 - Python's strong dynamic typing
 - Data types and systems such as iterators, iterables, streams, classes, closures, and objects
