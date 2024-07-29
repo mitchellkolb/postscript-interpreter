@@ -101,7 +101,16 @@ This project was implemented on my local machine inside of a virtual machine usi
 # Project Overview
 I used Python to create an interpreter for the PostScript language. PostScript, developed by Adobe Systems, is a stack-based language used primarily for vector graphics in the printing industry. The interpreter supports a range of operators including arithmetic, comparison, string manipulation, and stack operations.
 
+
 ## Project Details
+PostScript is a programming language primarily used in the printing industry to describe the appearance of text, graphics, and images on printed pages. Developed by Adobe Systems, PostScript is a stack-based, interpreted language, meaning it uses a stack data structure to hold operands and execute operations. In a stack-based language like PostScript, operators pop their operands from the stack and push their results back onto the stack.
+
+For example, to add two numbers in PostScript, you would push the numbers onto the stack and then use the `add` operator, like so:
+```
+3 4 add
+```
+This sequence pushes `3` and `4` onto the stack, and then `add` pops these two values, adds them, and pushes the result (`7`) back onto the stack. 
+
 The interpreter includes support for the following PostScript operators:
 - Arithmetic: `add`, `sub`, `mul`, `div`, `mod`
 - Comparison: `eq`, `lt`, `gt`
