@@ -23,7 +23,7 @@
     alt="Website Badge" />
 </p>
 
-I coded an interpreter for the PostScript language in Python. PostScript is a stack-based, interpreted language developed by Adobe Systems long ago for producing vector graphics in the printing industry. My interpreter includes the operators: add, sub, mul, div, mod, eq, lt, gt, length, get, getinterval, put, if, ifelse, for, dup, copy, clear, exch, roll, and dict.
+An interpreter for the PostScript language in Python. PostScript is a stack-based, interpreted language developed by Adobe Systems long ago for producing vector graphics in the printing industry. My interpreter includes the operators: add, sub, mul, div, mod, eq, lt, gt, length, get, getinterval, put, if, ifelse, for, dup, copy, clear, exch, roll, and dict.
 
 ![project image](resources/image1.png)
 
@@ -55,12 +55,11 @@ I coded an interpreter for the PostScript language in Python. PostScript is a st
     - Pythons strong dyanmic typing
     - Data types / systems like iterators, iterables, streams, classes, closures, and objects
 - Understanding how Pythons handles its Scope, Referencing Environment, and Activation Record when dealing with programs and data.
-- Differences between:
-    - Compile-time (static) type checking versus Run-time (dynamic) type checking
-    - Storage Management
-      - Static area
-      - Stack
-      - Heap
+- Compile-time (static) type checking versus Run-time (dynamic) type checking
+- Storage Management
+  - Static area
+  - Stack
+  - Heap
 
 
 # Tools Used / Development Environment
@@ -93,50 +92,62 @@ This project was implemented on my local machine inside of a virtual machine usi
 
 
 
-
 # Project Overview
-This project utilizes 
-
-
+I used Python to create an interpreter for the PostScript language. PostScript, developed by Adobe Systems, is a stack-based language used primarily for vector graphics in the printing industry. The interpreter supports a range of operators including arithmetic, comparison, string manipulation, and stack operations.
 
 ## Project Details
+The interpreter includes support for the following PostScript operators:
+- Arithmetic: `add`, `sub`, `mul`, `div`, `mod`
+- Comparison: `eq`, `lt`, `gt`
+- String: `length`, `get`, `getinterval`, `put`
+- Conditional: `if`, `ifelse`
+- Loop: `for`
+- Stack: `dup`, `copy`, `clear`, `exch`, `roll`
+- Dictionary: `dict`, `begin`, `end`, `def`
 
-### Introduction
-In this project, we apply 
+## Technical Plan
+The project employs Python to build the essential components of the interpreter:
+- Operand Stack: Implemented as a Python list to store integers, strings, and code arrays.
+- Dictionary Stack: Implemented as a Python list to store dictionaries, which are used to map PostScript variable names to their values.
+- Operators: Implemented as Python functions that manipulate the operand and dictionary stacks.
 
+## Implementation Details
+The implementation is divided into two main parts:
+1. Part 1 (HW4) focuses on building the operand stack, dictionary stack, variable definition, and operators that do not involve code arrays.
+2. Part 2 (HW5) adds support for conditional operators, loop operators, and function calls.
 
-### Literature Review
-In this we drew inspiration from various sources, including video tutorials online for 
+## Files and Structure
+- `HW4.py`: Contains the SPS Interpreter codebase for Part 1.
+- `HW4test.py`: Contains the Unit Tests for the interpreter.
+- `HW5.py`: Contains the SPS Interpreter codebase for Part 2.
+- `HW5test.py`: Contains the Unit Tests for Part 2 of the interpreter.
 
+## Implementation
+In this project, the interpreter processes PostScript code by pushing and popping values on stacks and applying operators to these values. The operand stack is used to store data values and the dictionary stack to store mappings of variable names to their values. Operators are implemented to manipulate these stacks according to the semantics of the PostScript language.
 
-### Technical Plan
-The project employs a 
+### Example Usage
+Here is a simple example demonstrating the usage of the interpreter:
+```python
+opPush(10)
+opPush(20)
+add()
+print(opPop())  # Output: 30
+```
 
+## Results and Future Goals
 
-### Implementation Details
+During development, I learned how to implement key programming concepts in Python, including:
 
-#### Files and Structure
-- `game.py`: Contains the racing game environment and controls the car's movement.
-> [!NOTE]
-> These files were 
+- Higher-order functions like `map`, `filter`, and `reduce`
+- Static and dynamic scoping
+- Python's strong dynamic typing
+- Data types and systems such as iterators, iterables, streams, classes, closures, and objects
+- Understanding Python's handling of scope, referencing environment, and activation record
+- Compile-time vs. run-time type checking
+- Storage management: static area, stack, and heap
 
+Future goals for this project include optimizing the interpreter's performance and extending it to support additional PostScript features and operators.
 
-### Implementation
-In this project
-
-#### Results and Observations
-During development,
-<p float="left">
-  <img src="resources/image1.png" alt="First Try" width="300" />
-  <img src="resources/image2.png" alt="Final Try" width="307" />
-</p>
-
-#### Future Work
-Future improvements could include
-
-
-
-## References
 
 
 
