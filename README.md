@@ -43,7 +43,13 @@ An interpreter for the PostScript language in Python. PostScript is a stack-base
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [References](#references)
+- [Project Details](#project-details)
+- [Technical Plan](#technical-plan)
+- [Implementation Details](#implementation-details)
+- [Files and Structure](#files-and-structure)
+- [Implementation](#implementation)
+  - [Example Usage](#example-usage)
+- [Results and Future Goals](#results-and-future-goals)
 - [Acknowledgments](#acknowledgments)
 
 ---
