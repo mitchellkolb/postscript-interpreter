@@ -43,13 +43,13 @@ An interpreter for the PostScript language in Python. PostScript is a stack-base
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [Project Details](#project-details)
-- [Technical Plan](#technical-plan)
-- [Implementation Details](#implementation-details)
-- [Files and Structure](#files-and-structure)
-- [Implementation](#implementation)
+  - [Project Details](#project-details)
+  - [Technical Plan](#technical-plan)
+  - [Implementation Details](#implementation-details)
+  - [Files and Structure](#files-and-structure)
+  - [Implementation](#implementation)
   - [Example Usage](#example-usage)
-- [Results and Future Goals](#results-and-future-goals)
+  - [Results and Future Goals](#results-and-future-goals)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -131,7 +131,7 @@ The implementation is divided into two main parts:
 ## Implementation
 In this project, the interpreter processes PostScript code by pushing and popping values on stacks and applying operators to these values. The operand stack is used to store data values and the dictionary stack to store mappings of variable names to their values. Operators are implemented to manipulate these stacks according to the semantics of the PostScript language.
 
-### Example Usage
+## Example Usage
 Here is a simple example demonstrating the usage of the interpreter:
 ```python
 opPush(10)
