@@ -59,7 +59,7 @@ An interpreter for the PostScript language in Python. PostScript is a stack-base
     - Static Scoping and Dynamic Scoping
     - Pythons strong dyanmic typing
     - Data types / systems like iterators, iterables, streams, classes, closures, and objects
-- Understanding how Pythons handles its Scope, Referencing Environment, and Activation Record when dealing with programs and data.
+- Understanding how Python handles its Scope, Referencing Environment, and Activation Record when dealing with programs and data.
 - Compile-time (static) type checking versus Run-time (dynamic) type checking
 - Storage Management
   - Static area
