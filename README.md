@@ -25,12 +25,12 @@
 
 An interpreter for the PostScript language in Python. PostScript is a stack-based, interpreted language developed by Adobe Systems long ago for producing vector graphics in the printing industry. My interpreter includes the operators: add, sub, mul, div, mod, eq, lt, gt, length, get, getinterval, put, if, ifelse, for, dup, copy, clear, exch, roll, and dict.
 
-![project image](resources/image1.png)
+![project image](resources/postscript-gif.gif)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
 
-[![Full Video Demo Here](https://img.youtube.com/vi/VidKEY/0.jpg)](https://www.youtube.com/watch?v=VidKEY)
+[![Full Video Demo Here](https://img.youtube.com/vi/SSEPi0xk1iE/0.jpg)](https://www.youtube.com/watch?v=SSEPi0xk1iE)
 
 </details>
 
